@@ -1,0 +1,26 @@
+
+  /* Esconde todos os itens do menu */
+  .navbar-nav .nav-item {
+    display: none;
+  }
+
+  /* Exibe apenas o item que tem href="#gratis" */
+  .navbar-nav .nav-item .nav-link[href="#gratis"] {
+    display: block;
+  }
+
+  .card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-body a.btn {
+  margin-top: auto; /* empurra o botão para o final */
+}
+
